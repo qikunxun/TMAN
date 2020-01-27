@@ -3,14 +3,15 @@
 ## Dependencies
 To run it perfectly, you will need (recommend using Ananconda to set up environment):
 * Python 3.5 or 3.6
-* Tensorflow 1.10.0
+* Tensorflow 1.12.0
 
 1. Download and preprocess
 
 
 # Download the data and monolingual word embedidng
-[1] https://github.com/facebookresearch/XNLI   # Download dataset
-[2] https://fasttext.cc/docs/en/pretrained-vectors.html     # Download FastText word embedding
+[1] https://github.com/facebookresearch/XNLI   // Download dataset
+
+[2] https://fasttext.cc/docs/en/pretrained-vectors.html     // Download FastText word embedding
 
 2. Align word embedding by MUSE
 
@@ -33,7 +34,7 @@ To run it perfectly, you will need (recommend using Ananconda to set up environm
 
 #Training process
 
-# Hyper-parameters are set in configure file in ./config/xnli.sample.config
+Hyper-parameters are set in configure file in ./config/xnli.sample.config
 
 cd src
 
@@ -41,7 +42,7 @@ python Main.py --config_path ../configs/xnli.sample.config
 
 The model and results are saved in $model_dir$.
 
-3. Evaluation
+#Evaluation
 
 cd src
 
