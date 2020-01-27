@@ -14,8 +14,7 @@
 
 This script will download and preprocess the XNLI corpus:
 
-
-# Replace multinli.train.en.tsv by the merged data
+Note: Replacing multinli.train.en.tsv by the merged data
 
 # Data pre-processing
 ```
