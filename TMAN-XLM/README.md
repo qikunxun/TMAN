@@ -17,6 +17,7 @@ This script will download and preprocess the XNLI corpus:
 
 # Replace multinli.train.en.tsv by the merged data
 
+# Data pre-processing
 ```
 ./get-data-xnli.sh
 ```
@@ -41,7 +42,7 @@ python glue-xnli.py
 --transfer_tasks XNLI                    # transfer tasks (XNLI or GLUE tasks)
 --optimizer adam,lr=0.000005             # optimizer
 --batch_size 8                           # batch size
---n_epochs 2                             # number of epochs
+--n_epochs 3                             # number of epochs
 --epoch_size -1                          # number of sentences per epoch
 --max_len 128                            # max number of words in sentences
 --max_vocab 95000                        # max number of words in vocab
