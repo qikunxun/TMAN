@@ -3,9 +3,9 @@
 
 ## Dependencies
 
-- Python 3
+- Python 3.5 or 3.6
 - [NumPy](http://www.numpy.org/)
-- [TensorFlow] (https://tensorflow.google.cn/) > 1.10.0
+- [TensorFlow] (https://tensorflow.google.cn/) >= 1.12.0
 
 export BERT_BASE_DIR=/path/to/bert/multilingual_L-12_H-768_A-12
 export XNLI_DIR=/path/to/xnli
