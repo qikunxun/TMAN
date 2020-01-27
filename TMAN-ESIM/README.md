@@ -32,7 +32,7 @@ To run it perfectly, you will need (recommend using Ananconda to set up environm
 [4] python ./src/create_word_vectors/create_word_embedding.py --dataset_dir directory to dataset --wordvec_path filepath to word embedding
 
 
-#Training process
+# Training process
 
 Hyper-parameters are set in configure file in ./config/xnli.sample.config
 
@@ -42,7 +42,7 @@ python Main.py --config_path ../configs/xnli.sample.config
 
 The model and results are saved in $model_dir$.
 
-#Evaluation
+# Evaluation
 
 cd src
 
