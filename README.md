@@ -5,6 +5,8 @@ Code for the paper Translation Based Matching Adversarial Network for Cross-ling
 # Download XNLI benchmark
 python download_data.py
 
+# Training and evaluating TMAN
+
 [1] To run TMAN-ESIM, please see the README.md in ./TMAN-ESIM/
 
 [2] To run TMAN-BERT, please see the README.md in ./TMAN-BERT/
