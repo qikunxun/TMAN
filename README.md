@@ -1,6 +1,6 @@
 # Translation Based Matching Adversarial Network for Cross-lingual Natural Language Inference (TMAN)
 
-Code for the AAAI-2020 accepted paper Translation Based Matching Adversarial Network for Cross-lingual Natural Language Inference
+Code for the AAAI-2020 accepted paper Translation Based Matching Adversarial Network for Cross-lingual Natural Language Inference.
 
 # Download XNLI benchmark
 python download_data.py
