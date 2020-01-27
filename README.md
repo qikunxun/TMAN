@@ -7,8 +7,8 @@ python download_data.py
 
 # Training and evaluating TMAN
 
-1. To run TMAN-ESIM, please see the README.md in ./TMAN-ESIM/
+To run TMAN-ESIM, please see the README.md in ./TMAN-ESIM/
 
-2. To run TMAN-BERT, please see the README.md in ./TMAN-BERT/
+To run TMAN-BERT, please see the README.md in ./TMAN-BERT/
 
-3. To run TMAN-XLM, please see the README.md in ./TMAN-XLM/
+To run TMAN-XLM, please see the README.md in ./TMAN-XLM/
