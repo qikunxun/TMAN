@@ -10,11 +10,8 @@
 - [Apex](https://www.github.com/nvidia/apex) (for fp16 training)
 
 
-### Download / preprocess XNLI data
 
-This script will download and preprocess the XNLI corpus:
-
-Note: Replacing multinli.train.en.tsv by the merged data
+# Replacing original data by the merged data
 
 # Data pre-processing
 ```
